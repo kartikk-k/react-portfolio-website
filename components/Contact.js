@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Contact() {
@@ -29,19 +30,19 @@ function Contact() {
 
                         </div>
                         <div className='github-rating flex justify-center'>
-                            <a href='' className='py-3 z-10 cursor-pointer'>A++</a>
+                            <Link href='' className='py-3 z-10 cursor-pointer'>A++</Link>
                         </div>
                     </div>
                     <div className="social-media flex-row p-4 space-y-4 justify-between z-10">
                         <h1 className='text-xl font-medium'>Social Media</h1>
                         <div className='grid grid-cols-2 gap-4'>
-                            <a className='social-link border border-white rounded-md px-3 py-2 cursor-pointer' href="">Github</a>
-                            <a className='social-link border border-white rounded-md px-3 py-2 cursor-pointer' href="">Instagram</a>
-                            <a className='social-link border border-white rounded-md px-3 py-2 cursor-pointer' href="">Twitter</a>
-                            <a className='social-link border border-white rounded-md px-3 py-2 cursor-pointer' href="">LinkedIn</a>
+                            <Link className='social-link border border-white rounded-md px-3 py-2 cursor-pointer' href="/">Github</Link>
+                            <Link className='social-link border border-white rounded-md px-3 py-2 cursor-pointer' href="/">Instagram</Link>
+                            <Link className='social-link border border-white rounded-md px-3 py-2 cursor-pointer' href="/">Twitter</Link>
+                            <Link className='social-link border border-white rounded-md px-3 py-2 cursor-pointer' href="/">LinkedIn</Link>
                         </div>
                         <div className='github-rating flex justify-center'>
-                            <a href='' className='py-3 z-10 cursor-pointer'>Send Mail</a>
+                            <Link href='' className='py-3 z-10 cursor-pointer'>Send Mail</Link>
                         </div>
                     </div>
                 </div>
